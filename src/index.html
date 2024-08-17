@@ -596,6 +596,154 @@
       </div>
     </section>
 
+    <!---------------------------------------->
+
+    <section>
+      <div class="wrapper">
+        <div class="countitem">
+          <i class="fa-solid fa-handshake-angle"></i>
+          <span class="num" data-val="25000">000</span>
+          <span class="text">Guides</span>
+        </div>
+        <div class="countitem">
+          <i class="fa-solid fa-suitcase-rolling"></i>
+          <span class="num" data-val="20000">000</span>
+          <span class="text">Tours</span>
+        </div>
+        <div class="countitem">
+          <i class="fa-solid fa-location-dot"></i>
+          <span class="num" data-val="20000">000</span>
+          <span class="text">Destinations</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!---------------------------------------->
+
+    <br><br>
+    <!-- ending the section of About Us -->
+
+    <!-- Newsletter Modal -->
+
+    <div class="modal-container">
+      <div class="modal-wrapper">
+        <div class="cross-container">
+          <i class="fas fa-times close-btn" onclick="closeModal()"></i>
+        </div>
+        <div class="modal-newsletter">
+          <div class="modal-header">
+            <div style="display: flex;flex-flow: column;">
+              <a href="#" class="nav__logo"
+                style="pointer-events:none;color:#000;scale: 0.75;">Tourguide<span>.</span></a>
+              <h3 style="font-weight: 600;font-size: 24px;">Get Flat 15% OFF</h3>
+              <span style="color: #939393; padding: .5rem; font-size: 13px;">Sign up and grab your discount.</span>
+            </div>
+          </div>
+          <div class="modal-content">
+            <form id="modal-form">
+              <input type="email" id="modal-email" placeholder="Email Address" required>
+              <button class="modal-btn" id="news-subscribe" type="submit">Subscribe</button>
+            </form>
+            <span style="color: #3950ac; padding: 1rem 0 0 0; font-weight: 600;cursor:pointer;font-size: 16px;"
+              onclick="closeModal()">No, thanks</span>
+            <span style="color: #939393; padding: 1rem; font-size: 13px;">You are signing up to receive our newsletters
+              via
+              email and can unsubscribe at any time.</span>
+          </div>
+        </div>
+        <div>
+          <img src="./img/pexels-sam-kolder-2387871.jpg" class="modal-image" alt="maldives">
+        </div>
+      </div>
+    </div>
+
+    <!---------------------------------------->
+
+    <!-- Destination Section -->
+    <div class="section__container destination__container" id="Destinations" data-aos="fade-up">
+      <div class="section__header">
+        <div>
+          <h2 class="section__title" data-aos="fade-in">Explore Top Destinations</h2>
+          <p class="section__subtitle" data-aos="fade-in">
+            Explore your dream places around the world. Here you can find your perfect destination.
+          </p>
+        </div>
+      </div>
+
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide card">
+            <img src="images/eiffelTower2.webp" class="card-img" alt="Eiffel Tower">
+            <div class="card-body">
+              <h1 class="card-title">Eiffel Tower</h1>
+              <p class="card-info">The Eiffel Tower is an iconic iron lattice tower in Paris, built for the 1889 World's Fair, standing at 324 meters tall.</p>
+              <button class="card-btn" onclick="window.open('./html/destinations/paris/start.html', '_blank')">Book Tour</button>
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <img src="images/giantWheel.webp" class="card-img" alt="The London Eye">
+            <div class="card-body">
+              <h1 class="card-title">The London Eye</h1>
+              <p class="card-info">The London Eye, a striking 135-meter tall observation wheel on the South Bank of the Thames, offers panoramic views of the city's landmarks.</p>
+                <button class="card-btn" onclick="window.open('./html/destinations/london/start.html', '_blank')">Book Tour</button>
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <img src="images/maldives.jpg" class="card-img" alt="Male Beach">
+            <div class="card-body">
+              <h1 class="card-title">Male Beach</h1>
+              <p class="card-info">Male Beach, the pristine stretch of golden sand on Malé Atoll, offers a serene escape with crystal-clear waters and vibrant marine life.</p>
+              <button class="card-btn" onclick="window.open('./html/destinations/maldives/start.html', '_blank')">Book Tour</button>
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <img src="images/MuseumofFuture.jpg" class="card-img" alt="Museum of the Future">
+            <div class="card-body">
+              <h1 class="card-title">Museum of the Future</h1>
+              <p class="card-info">The Museum of the Future in Dubai is a visionary architectural gem that explores cutting-edge innovations and the potential of tomorrow's technology.</p>
+              <button class="card-btn" onclick="window.open('./html/destinations/dubai/start.html', '_blank')">Book Tour</button>
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <img src="images/TajMahal.jpg" class="card-img" alt="Taj Mahal">
+            <div class="card-body">
+              <h1 class="card-title">Taj Mahal</h1>
+              <p class="card-info">The Taj Mahal, a majestic white marble mausoleum in Agra, is a timeless symbol of love and architectural brilliance.</p>
+           <button class="card-btn" onclick="window.open('./html/destinations/taj_mahal/taj.html', '_blank')">Book Tour</button>
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <img src="images/lehLadakh.jpg" class="card-img" alt="Leh Ladakh">
+            <div class="card-body">
+              <h1 class="card-title">Leh Ladakh</h1>
+              <p class="card-info">Leh Ladakh, a breathtaking high-altitude region in northern India, captivates with its rugged landscapes, serene monasteries, and vibrant cultural heritage.</p>
+              <button class="card-btn" onclick="window.open('./html/destinations/ladakh/ladakh.html', '_blank')">Book Tour</button>
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <img src="images/TimesSquare.jpg" class="card-img" alt="Times Square">
+            <div class="card-body">
+              <h1 class="card-title">Times Square</h1>
+              <p class="card-info">Times Square is a vibrant commercial and entertainment hub in New York City, renowned for its bright lights, Broadway theaters, and bustling atmosphere.</p>
+              <button class="card-btn" onclick="window.open('./html/destinations/new-york/newyork.html', '_blank')">Book Tour</button>
+            </div>
+          </div>
+        </div>
+        <button class="swiper-button-prev"></button>
+        <button class="swiper-button-next"></button>  
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+      <script src="explore.js"></script>
+    </section>
+  <!-- End Destination Section -->
 
   </body>
     
