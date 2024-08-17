@@ -13,9 +13,9 @@
         bottom: 18px;
       }
     </style>
-    <link rel="stylesheet" href="styles/loader.css">
+    <link rel="stylesheet" href="./styles/loader.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    <link rel="stylesheet" href="styles/faq-website.css">
+    <link rel="stylesheet" href="./styles/faq-website.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -30,29 +30,27 @@
   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   
-    <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="./Image-Gallery/style.css">
-    <link rel="stylesheet" href="./Image-Gallery/stylecaptions.css">
-    <link rel="stylesheet" href="styles/explore.css">
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/style-image-gallery.css">
+    <link rel="stylesheet" href="./styles/stylecaptions.css">
+    <link rel="stylesheet" href="./styles/explore.css">
     <title>Tourguide</title>
     <!-- adding a fav-icon -->
   
-     <img src="Untitled (1).mp4" alt="">
-    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+     <img src="./videos/video1.mp4" alt="">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico"/>
   
-    <link rel="stylesheet" href="styles/tilt.css">
-    <script src="tilt.js"></script>
+    <link rel="stylesheet" href="./styles/tilt.css">
+    <script src="./scripts/tilt.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.0.7/countUp.min.js"></script>
   
-    <script src="index.js" defer></script>
-    <script src="mouseEffect.js"></script>
-    <link rel="stylesheet" href="mouseEffect.css">
-    <script src="Theme.js" defer></script>
+    <script src="./scripts/index.js" defer></script>
+    <script src="./scripts/Theme.js" defer></script>
   
   
-    <link rel="stylesheet" href="path/to/aos.css">
-    <script src="path/to/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
     <script type="text/javascript">
@@ -62,7 +60,7 @@
   
       function planTrip() {
   
-        window.location.href = 'plantrip.html';
+        window.location.href = './html/plantrip.html';
       }
       // const menuButton = document.getElementsByClassName('link');
       //function closeNav() {
@@ -414,10 +412,12 @@
   }
     </style>
   
-    <link rel="stylesheet" href="styles/imstyle.css">
-    <link rel="stylesheet" href="styles/jquery.flipster.min.css">
+    <link rel="stylesheet" href="./styles/imstyle.css">
+    <link rel="stylesheet" href="./styles/jquery.flipster.min.css">
   
   </head>
+
+
 <body style="background-color: var(--secondary-color);">
     
   <body>
@@ -433,16 +433,16 @@
     <div class="nav-container" id="top">
       <nav class="newNav">
         <div style="display: flex; flex-direction: row; align-items: center;">
-        <img src="images/favicon.ico" class="sitelogo">
+        <img src="./images/favicon.ico" class="sitelogo">
         
         <a href="#" class="nav__logo" data-aos="fade-right">Tourguide<span>.</span></a>
       </div>
 
         <ul class="navLinks">
-          <li class="link" id="View-link" data-aos=""><a href="html/mapa.html">View</a></li>
-          <li class="link" id="LogIn-link" data-aos=""><a href="html/newLogin.html">Log In</a></li>
+          <li class="link" id="View-link" data-aos=""><a href="./html/mapa.html">View</a></li>
+          <li class="link" id="LogIn-link" data-aos=""><a href="./html/newLogin.html">Log In</a></li>
           <li class="link" data-aos=""><a href="#Home">Home</a></li>
-          <li class="link" data-aos=""><a href="html/about.html">About</a></li>
+          <li class="link" data-aos=""><a href="./html/about.html">About</a></li>
           <li class="link dropdown" data-aos="">
               <a href="#Services" class="dropdown">Services</a>
               <ul class="dropdown-menu">
@@ -453,19 +453,19 @@
                   <li><a href="#hotel">Hotel & Resort</a></li>
               </ul>
           </li>
-          <li class="link" data-aos=""><a href="html/topdeals.html">Top Deals</a></li>
-          <li class="link" data-aos=""><a href="html/packages.html">Packages</a></li>
+          <li class="link" data-aos=""><a href="./html/topdeals.html">Top Deals</a></li>
+          <li class="link" data-aos=""><a href="./html/packages.html">Packages</a></li>
           <li class="link" data-aos=""><a href="#testimonials">Testimonial</a></li>
-          <li class="link" data-aos=""><a href="html/feedback.html">Rate Us?</a></li>
+          <li class="link" data-aos=""><a href="./html/feedback.html">Rate Us?</a></li>
           <li class="link" data-aos=""><a href="#cnt-form">Contact Us</a></li>
       </ul>
 
-        <a href="html/newLogin.html" class="contact-btn" id="nav-login-btn"><button class="btn login" id="btn-style"
+        <a href="./html/newLogin.html" class="contact-btn" id="nav-login-btn"><button class="btn login" id="btn-style"
             data-aos="fade-down">Login/SignUp</button></a>
-        <a href="html/mapa.html" class="contact-btn" id="nav-view-btn"><button class="btn" id="btn-style" style="margin: 0;"
+        <a href="./html/mapa.html" class="contact-btn" id="nav-view-btn"><button class="btn" id="btn-style" style="margin: 0;"
             data-aos="fade-down">view <map name=""></map></button></a>
 
-        <a href="html/loginPage.html" class="contact-btn"><button class="btn" id="logout-btn"
+        <a href="./html/loginPage.html" class="contact-btn"><button class="btn" id="logout-btn"
             style="margin: 0; display: none;" data-aos="fade-down" disabled>Log Out</button></a>
 
         <!-- <a href="login-modified.html" class="contact-btn"><button class="btn" id="btn-style"
@@ -528,7 +528,7 @@
                   style="box-shadow: 2px 2px 8px red;">Membership</button></a>
               <button class="btn" data-aos="fade-in" onclick="planTrip()"
                 style="box-shadow: 2px 2px 8px red;">Plan a Trip</button>
-              <a href="html/payment.html"><button class="btn" data-aos="fade-in" 
+              <a href="./html/payment.html"><button class="btn" data-aos="fade-in" 
                   style="box-shadow: 2px 2px 8px red;">Book Now</button></a>
             </div>
 
@@ -539,7 +539,7 @@
                 <img src="https://i.ibb.co/KwHd8PQ/pexels-stijn-dijkstra-2499699.jpg" type="video/mp4"
                   style="box-shadow:2px 2px 8px blue;">
                 <!-- link to the hmtl page with the video -->
-                <a href="html/story.html" class="btn_video">
+                <a href="./html/story.html" class="btn_video">
                   <span><i class="ri-play-fill"></i></span>
                 </a>
               </div>
@@ -662,7 +662,7 @@
           </div>
         </div>
         <div>
-          <img src="./img/pexels-sam-kolder-2387871.jpg" class="modal-image" alt="maldives">
+          <img src="./images/pexels-sam-kolder-2387871.jpg" class="modal-image" alt="maldives">
         </div>
       </div>
     </div>
@@ -683,7 +683,7 @@
       <div class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide card">
-            <img src="images/eiffelTower2.webp" class="card-img" alt="Eiffel Tower">
+            <img src="./images/eiffelTower2.webp" class="card-img" alt="Eiffel Tower">
             <div class="card-body">
               <h1 class="card-title">Eiffel Tower</h1>
               <p class="card-info">The Eiffel Tower is an iconic iron lattice tower in Paris, built for the 1889 World's Fair, standing at 324 meters tall.</p>
@@ -692,7 +692,7 @@
           </div>
 
           <div class="swiper-slide card">
-            <img src="images/giantWheel.webp" class="card-img" alt="The London Eye">
+            <img src="./images/giantWheel.webp" class="card-img" alt="The London Eye">
             <div class="card-body">
               <h1 class="card-title">The London Eye</h1>
               <p class="card-info">The London Eye, a striking 135-meter tall observation wheel on the South Bank of the Thames, offers panoramic views of the city's landmarks.</p>
@@ -701,7 +701,7 @@
           </div>
 
           <div class="swiper-slide card">
-            <img src="images/maldives.jpg" class="card-img" alt="Male Beach">
+            <img src="./images/maldives.jpg" class="card-img" alt="Male Beach">
             <div class="card-body">
               <h1 class="card-title">Male Beach</h1>
               <p class="card-info">Male Beach, the pristine stretch of golden sand on Malé Atoll, offers a serene escape with crystal-clear waters and vibrant marine life.</p>
@@ -710,7 +710,7 @@
           </div>
 
           <div class="swiper-slide card">
-            <img src="images/MuseumofFuture.jpg" class="card-img" alt="Museum of the Future">
+            <img src="./images/MuseumofFuture.jpg" class="card-img" alt="Museum of the Future">
             <div class="card-body">
               <h1 class="card-title">Museum of the Future</h1>
               <p class="card-info">The Museum of the Future in Dubai is a visionary architectural gem that explores cutting-edge innovations and the potential of tomorrow's technology.</p>
@@ -719,7 +719,7 @@
           </div>
 
           <div class="swiper-slide card">
-            <img src="images/TajMahal.jpg" class="card-img" alt="Taj Mahal">
+            <img src="./images/TajMahal.jpg" class="card-img" alt="Taj Mahal">
             <div class="card-body">
               <h1 class="card-title">Taj Mahal</h1>
               <p class="card-info">The Taj Mahal, a majestic white marble mausoleum in Agra, is a timeless symbol of love and architectural brilliance.</p>
@@ -728,7 +728,7 @@
           </div>
 
           <div class="swiper-slide card">
-            <img src="images/lehLadakh.jpg" class="card-img" alt="Leh Ladakh">
+            <img src="./images/lehLadakh.jpg" class="card-img" alt="Leh Ladakh">
             <div class="card-body">
               <h1 class="card-title">Leh Ladakh</h1>
               <p class="card-info">Leh Ladakh, a breathtaking high-altitude region in northern India, captivates with its rugged landscapes, serene monasteries, and vibrant cultural heritage.</p>
@@ -737,7 +737,7 @@
           </div>
 
           <div class="swiper-slide card">
-            <img src="images/TimesSquare.jpg" class="card-img" alt="Times Square">
+            <img src="./images/TimesSquare.jpg" class="card-img" alt="Times Square">
             <div class="card-body">
               <h1 class="card-title">Times Square</h1>
               <p class="card-info">Times Square is a vibrant commercial and entertainment hub in New York City, renowned for its bright lights, Broadway theaters, and bustling atmosphere.</p>
@@ -750,7 +750,7 @@
       </div>
 
       <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-      <script src="explore.js"></script>
+      <script src="./scripts/explore.js"></script>
     </section>
   <!-- End Destination Section -->
 

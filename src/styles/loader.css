@@ -10,7 +10,7 @@
     position: fixed;
     top: 0;
     z-index: 2000000010;
-    background: #000 url(Loader_Animation.gif) no-repeat center center;
+    background: #000 url(./images/Loader_Animation.gif) no-repeat center center;
     background-size: 30%;
     overflow-y: hidden;
 }
