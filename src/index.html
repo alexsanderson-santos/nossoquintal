@@ -418,19 +418,62 @@
     <link rel="stylesheet" href="styles/jquery.flipster.min.css">
   
   </head>
-<body>
-    <header>
-        <h1>In the Middle of the World is Our Backyard</h1>
-        <nav>
-            <a href="styles/login">Login</a>
-        </nav>
-    </header>
-    <main>
-        <h2>Welcome to Your Travel Itinerary Planner</h2>
-        <p>Explore, plan, and manage your trips with personalized itineraries.</p>
-    </main>
-    <footer>
-        <p>&copy; 2024 In the Middle of the World is Our Backyard</p>
-    </footer>
+<body style="background-color: var(--secondary-color);">
+    
+  <body>
+    <div class="nav-container" id="top">
+      <nav class="newNav">
+        <div style="display: flex; flex-direction: row; align-items: center;">
+        <img src="images/favicon.ico" class="sitelogo">
+        
+        <a href="#" class="nav__logo" data-aos="fade-right">Tourguide<span>.</span></a>
+      </div>
+
+        <ul class="navLinks">
+          <li class="link" id="View-link" data-aos=""><a href="html/mapa.html">View</a></li>
+          <li class="link" id="LogIn-link" data-aos=""><a href="html/newLogin.html">Log In</a></li>
+          <li class="link" data-aos=""><a href="#Home">Home</a></li>
+          <li class="link" data-aos=""><a href="html/about.html">About</a></li>
+          <li class="link dropdown" data-aos="">
+              <a href="#Services" class="dropdown">Services</a>
+              <ul class="dropdown-menu">
+                  <li><a href="#Destinations">Destination</a></li>
+                  <li><a href="#trip">Prices</a></li>
+                  <li><a href="#ReviewGallery">Trip Gallery</a></li>
+                  <li><a href="#tourist">Tourist Guide</a></li>
+                  <li><a href="#hotel">Hotel & Resort</a></li>
+              </ul>
+          </li>
+          <li class="link" data-aos=""><a href="html/topdeals.html">Top Deals</a></li>
+          <li class="link" data-aos=""><a href="html/packages.html">Packages</a></li>
+          <li class="link" data-aos=""><a href="#testimonials">Testimonial</a></li>
+          <li class="link" data-aos=""><a href="html/feedback.html">Rate Us?</a></li>
+          <li class="link" data-aos=""><a href="#cnt-form">Contact Us</a></li>
+      </ul>
+
+        <a href="html/newLogin.html" class="contact-btn" id="nav-login-btn"><button class="btn login" id="btn-style"
+            data-aos="fade-down">Login/SignUp</button></a>
+        <a href="html/mapa.html" class="contact-btn" id="nav-view-btn"><button class="btn" id="btn-style" style="margin: 0;"
+            data-aos="fade-down">view <map name=""></map></button></a>
+
+        <a href="html/loginPage.html" class="contact-btn"><button class="btn" id="logout-btn"
+            style="margin: 0; display: none;" data-aos="fade-down" disabled>Log Out</button></a>
+
+        <!-- <a href="login-modified.html" class="contact-btn"><button class="btn" id="btn-style"
+            style="margin: 0; box-shadow:1.5px 1.5px 6px red;" data-aos="fade-down">Login</button></a> -->
+
+        <div class="toggle-container" data-aos="fade-down">
+          <input id="themeToggle" class="toggle" type="checkbox">
+        </div>
+        <div class="hamburger" data-aos="fade-down">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </div>
+  </body>
+    
+    
 </body>
 </html>
