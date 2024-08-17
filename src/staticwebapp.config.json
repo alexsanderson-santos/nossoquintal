@@ -1,0 +1,30 @@
+{
+    "routes": [
+        {
+            "route": "/login",
+            "rewrite": "/.auth/login/github"
+        },
+        {
+            "route": "/dashboard",
+            "allowedRoles": ["authenticated"]
+        },
+        {
+            "route": "/",
+            "rewrite": "/index.html"
+        },
+        {
+            "route": "/**",
+            "rewrite": "/index.html"
+        }
+    ],
+    "auth": {
+        "identityProviders": {
+            "github": {
+                "registration": {
+                    "clientIdSettingName": "GITHUB_CLIENT_ID",
+                    "clientSecretSettingName": "GITHUB_CLIENT_SECRET"
+                }
+            }
+        }
+    }
+}
